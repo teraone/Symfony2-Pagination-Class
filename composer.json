@@ -1,0 +1,26 @@
+{
+    "name": "teraone/pagination",
+    "type": "library",
+    "description": "Pagination Class for use with template engines like twig.",
+    "keywords": ["pagination","twig",
+    "homepage": "https://github.com/teraone/Symfony2-Pagination-Class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Mafla",
+            "website": "http://devtime.blogspot.de/",
+            "role": "Creator"
+        },
+        {
+            "name": "Stefan Gotre",
+            "email": "gotre@teraone.de",
+            "role": "Contributor"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [ "Paginator.php"]
+    }
+}
